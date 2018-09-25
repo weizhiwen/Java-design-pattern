@@ -8,7 +8,7 @@ package simpleFactory;
  * To change this template use File | Settings | File Templates.
  * Description: 减法运算类
  */
-public class SubAbstractOperation extends AbstractOperation {
+public class SubOperation extends AbstractOperation {
 
     @Override
     public double getResult() {

@@ -8,7 +8,7 @@ package simpleFactory;
  * To change this template use File | Settings | File Templates.
  * Description: 乘法运算类
  */
-public class MulAbstractOperation extends AbstractOperation {
+public class MulOperation extends AbstractOperation {
 
     @Override
     public double getResult() {

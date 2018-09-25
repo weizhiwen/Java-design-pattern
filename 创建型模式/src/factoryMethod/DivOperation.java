@@ -1,4 +1,4 @@
-package simpleFactory;
+package factoryMethod;
 
 /**
  * Created with IntelliJ IDEA.

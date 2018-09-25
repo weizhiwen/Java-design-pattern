@@ -12,15 +12,15 @@ public class OperationFactory {
     public static AbstractOperation createOperation(String operation) {
         switch (operation) {
             case "加":
-                return new AddAbstractOperation();
+                return new AddOperation();
             case "减":
-                return new SubAbstractOperation();
+                return new SubOperation();
             case "乘":
-                return new MulAbstractOperation();
+                return new MulOperation();
             case "除":
-                return new DivAbstractOperation();
+                return new DivOperation();
             case "求方":
-                return new SquAbstractOperation();
+                return new SquOperation();
             default:
                throw new RuntimeException("暂不支持该运算");
         }

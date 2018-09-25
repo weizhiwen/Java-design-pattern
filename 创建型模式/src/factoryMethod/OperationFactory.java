@@ -8,6 +8,6 @@ package factoryMethod;
  * To change this template use File | Settings | File Templates.
  * Description: 运算工厂接口
  */
-public interface OperationFactoryInteface {
-    AddOperation createOperation();
+public interface OperationFactory {
+    AbstractOperation createOperation();
 }
