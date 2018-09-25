@@ -8,7 +8,7 @@ package simpleFactory;
  * To change this template use File | Settings | File Templates.
  * Description: 求方运算类
  */
-public class SquOperation extends Operation{
+public class SquAbstractOperation extends AbstractOperation {
 
     @Override
     public double getResult() {

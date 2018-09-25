@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
  */
 class SimpleFactoryTest {
     private String operator = "";
-    private Operation operation;
+    private AbstractOperation operation;
 
     @Test
     @DisplayName("Test 5 = 3 + 2")

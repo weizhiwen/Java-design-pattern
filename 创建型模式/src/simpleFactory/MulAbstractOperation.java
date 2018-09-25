@@ -4,14 +4,14 @@ package simpleFactory;
  * Created with IntelliJ IDEA.
  * User: wzw
  * Date: 2018/9/24
- * Time: 16:47
+ * Time: 16:52
  * To change this template use File | Settings | File Templates.
- * Description: 减法运算类
+ * Description: 乘法运算类
  */
-public class SubOperation extends Operation{
+public class MulAbstractOperation extends AbstractOperation {
 
     @Override
     public double getResult() {
-        return numberA - numberB;
+        return numberA * numberB;
     }
 }

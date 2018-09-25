@@ -8,9 +8,9 @@ package simpleFactory;
  * To change this template use File | Settings | File Templates.
  * Description: 运算抽象类
  */
-public abstract class Operation {
+public abstract class AbstractOperation {
     protected double numberA;
     protected double numberB;
 
-    public abstract double getResult();
+    protected abstract double getResult();
 }

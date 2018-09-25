@@ -6,21 +6,21 @@ package simpleFactory;
  * Date: 2018/9/24
  * Time: 17:10
  * To change this template use File | Settings | File Templates.
- * Description:
+ * Description: 运算工厂类
  */
 public class OperationFactory {
-    public static Operation createOperation(String operation) {
+    public static AbstractOperation createOperation(String operation) {
         switch (operation) {
             case "加":
-                return new AddOperation();
+                return new AddAbstractOperation();
             case "减":
-                return new SubOperation();
+                return new SubAbstractOperation();
             case "乘":
-                return new MulOperation();
+                return new MulAbstractOperation();
             case "除":
-                return new DivOperation();
+                return new DivAbstractOperation();
             case "求方":
-                return new SquOperation();
+                return new SquAbstractOperation();
             default:
                throw new RuntimeException("暂不支持该运算");
         }
