@@ -56,7 +56,7 @@ public class Client {
                     throw new RuntimeException("暂无该收费策略");
             }
             System.out.println("原本收费：" + totalPrice);
-            System.out.println("实际收费：" + actualPrice);
+            System.out.println(strategys.get(strategy) + "后实际收费：" + actualPrice);
             System.out.println("------------------------");
         }
     }
