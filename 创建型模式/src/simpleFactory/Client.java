@@ -29,6 +29,7 @@ public class Client {
             operation.numberA = numberA;
             operation.numberB = numberB;
             System.out.println(numberA + operators.get(operator) + numberB + "的运算结果：" + operation.getResult());
+            System.out.println("--------------------------------");
         }
     }
 }
